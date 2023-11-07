@@ -1,0 +1,104 @@
+.homeText h1,
+.homeText h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.homeContent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.homeText {
+  max-width: 50%;
+  font-family: 'Arimo', sans-serif;
+}
+
+.homeImage img {
+  max-width: 50%;
+  height: auto;
+
+}
+
+.homeButtons {
+  margin-top: 30px;
+  /* Отступ сверху */
+  display: flex;
+  justify-content: center;
+}
+
+.homeButton {
+  margin: 0 10px;
+  border: 0.5px solid white;
+  outline: none;
+  color: white;
+  background-color: #f6b41e;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+}
+
+.homeButton:hover {
+  background-color: #eca72c;
+}
+
+@media (max-width: 968px) {
+  .homeText {
+    max-width: 40%;
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+
+  .homeImage img {
+    max-width: 20%;
+  }
+
+  .homeButton {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
+}
+
+@media (max-width: 780px) {
+  .homeContent {
+    max-width: 40%;
+    margin-top: 200px;
+    margin-left: 10px;
+
+  }
+
+  .homeContent_reverse {
+    margin-right: 160px;
+
+  }
+
+  .homeText {
+    max-width: 100%;
+  }
+
+  .homeImage img {
+    display: none;
+  }
+
+  .homeImage_reverse img {
+    display: none;
+
+  }
+
+  .homeButtons {
+    flex-direction: column;
+  }
+
+  .homeButton {
+    margin: 10px 0;
+    width: 80%;
+    padding: 12px 20px;
+    font-size: 1em;
+  }
+}

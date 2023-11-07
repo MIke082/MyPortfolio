@@ -1,0 +1,21 @@
+.aboutTitle {
+    border-bottom: 1px solid #f6b41e;
+    padding-bottom: 0.5em;
+  }
+  
+  .aboutText {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .whatIDoTitle {
+    margin-top: 2em;
+    border-bottom: 1px solid #f6b41e;
+    padding-bottom: 0.5em;
+  }
+  
+  .whatIDoList {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  

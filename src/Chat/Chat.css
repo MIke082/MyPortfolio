@@ -1,0 +1,103 @@
+.chat-modal {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  width: 350px;
+  height: 500px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+
+}
+
+.messages {
+  overflow-y: auto;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.my-message,
+.their-message {
+  word-wrap: break-word;
+  white-space: normal;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  max-width: 70%;
+}
+
+
+.my-message {
+  align-self: flex-end;
+  background-color: #f6b41e;
+  color: black;
+}
+
+.their-message {
+  align-self: flex-start;
+  background-color: #e9e9eb;
+}
+
+.message-input {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+
+}
+
+.message-input textarea {
+  flex-grow: 1;
+  margin-right: 2px;
+  border-radius: 20px;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+.message-input button {
+  padding: 10px 20px;
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.profile-container {
+  background-color: #f6b41e;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exit-button {
+  cursor: pointer; 
+  margin-right: 10px;
+}
+
+.profile-image {
+  margin: 10px 0;
+
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+.profile-name {
+  margin: 0 10px;
+  margin-bottom: 0;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+
+.profile-status {
+  margin: 5px 10px;
+  color: white;
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+
+}
